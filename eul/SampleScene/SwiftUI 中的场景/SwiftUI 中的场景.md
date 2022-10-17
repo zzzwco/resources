@@ -1,6 +1,6 @@
 `2022/08/29`  `Xcode 14`  `iOS 16`  `macOS 13`  
 
-*鉴于 Scene 比较特殊，难以在 Eul 中内置示例，笔者为其单独创建了一个样例工程，源码：[Eul/SampleScene]()。*
+*鉴于 Scene 比较特殊，难以在 Eul 中内置示例，笔者为其单独创建了一个样例工程，源码：[Eul/SampleScene](https://github.com/zzzwco/resources/tree/main/eul/SampleScene)。*
 
 在《生命周期的演变》 中已经介绍过一些关于场景的概念了，下面逐一介绍 SwiftUI 内置的场景及其用法。
 
