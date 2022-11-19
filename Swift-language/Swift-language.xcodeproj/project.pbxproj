@@ -40,8 +40,6 @@
 		693B8F662928DE06005BF8BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		693B8F702928E982005BF8BC /* Swift5.7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift5.7; sourceTree = BUILT_PRODUCTS_DIR; };
 		693B8F722928E982005BF8BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		693B8F782928EBEA005BF8BC /* Swift 中的不透明类型、存在类型以及 some、any 关键字.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Swift 中的不透明类型、存在类型以及 some、any 关键字.md"; sourceTree = "<group>"; };
-		693B8F792928EBF4005BF8BC /* Swift 5.7 新特性.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Swift 5.7 新特性.md"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				693B8F662928DE06005BF8BC /* main.swift */,
-				693B8F782928EBEA005BF8BC /* Swift 中的不透明类型、存在类型以及 some、any 关键字.md */,
 			);
 			path = "any-some";
 			sourceTree = "<group>";
@@ -94,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				693B8F722928E982005BF8BC /* main.swift */,
-				693B8F792928EBF4005BF8BC /* Swift 5.7 新特性.md */,
 			);
 			path = Swift5.7;
 			sourceTree = "<group>";
