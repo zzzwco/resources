@@ -160,4 +160,4 @@ func f3() -> any P {
 
 ------
 
-*文中涉及源码参考：[Source code](https://github.com/zzzwco/ios-evalution/blob/main/swift-language/Examples/any-some/main.swift)。*
+*文中涉及源码参考：[Source code](https://github.com/zzzwco/resources/blob/main/Swift-language/any-some/main.swift)。*

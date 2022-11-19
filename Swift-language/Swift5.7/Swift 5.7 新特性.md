@@ -357,4 +357,4 @@ func mapNumbers(_ c: any Collection<Int>) -> [Int] {
 
 *本文仅是抛砖引玉，关于 Swift 5.7 更详细的变更请参考： [Swift/CHANGELOG.md](https://github.com/apple/swift/blob/main/CHANGELOG.md)*
 
-*文中涉及源码参考：[Source code](https://github.com/zzzwco/ios-evalution/blob/main/swift-language/Swift5.7/main.swift)。*
+*文中涉及源码参考：[Source code](https://github.com/zzzwco/resources/blob/main/Swift-language/Swift5.7/main.swift)。*
