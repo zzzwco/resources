@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AE1FC32A135AD700B3889B /* swiftui_change_languageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FC22A135AD700B3889B /* swiftui_change_languageApp.swift */; };
+		32AE1FC72A135AD800B3889B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AE1FC62A135AD800B3889B /* Assets.xcassets */; };
+		32AE1FCB2A135AD800B3889B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AE1FCA2A135AD800B3889B /* Preview Assets.xcassets */; };
+		32AE1FD52A135AD800B3889B /* swiftui_change_languageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FD42A135AD800B3889B /* swiftui_change_languageTests.swift */; };
+		32AE1FDF2A135AD800B3889B /* swiftui_change_languageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FDE2A135AD800B3889B /* swiftui_change_languageUITests.swift */; };
+		32AE1FE12A135AD800B3889B /* swiftui_change_languageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FE02A135AD800B3889B /* swiftui_change_languageUITestsLaunchTests.swift */; };
+		32AE1FF02A135BE000B3889B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FEF2A135BE000B3889B /* HomeView.swift */; };
+		32AE1FF22A135BE500B3889B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FF12A135BE500B3889B /* SettingsView.swift */; };
+		32AE1FF72A135E4100B3889B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32AE1FF92A135E4100B3889B /* Localizable.strings */; };
+		32AE1FFC2A135E9D00B3889B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FFB2A135E9D00B3889B /* AppState.swift */; };
+		32AE1FFE2A135F1900B3889B /* ChangeLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FFD2A135F1900B3889B /* ChangeLanguageView.swift */; };
+		32AE20002A13627000B3889B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FFF2A13627000B3889B /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32AE1FD12A135AD800B3889B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AE1FB72A135AD700B3889B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AE1FBE2A135AD700B3889B;
+			remoteInfo = "swiftui-change-language";
+		};
+		32AE1FDB2A135AD800B3889B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AE1FB72A135AD700B3889B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AE1FBE2A135AD700B3889B;
+			remoteInfo = "swiftui-change-language";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32AE1FBF2A135AD700B3889B /* swiftui-change-language.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-change-language.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AE1FC22A135AD700B3889B /* swiftui_change_languageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_change_languageApp.swift; sourceTree = "<group>"; };
+		32AE1FC62A135AD800B3889B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32AE1FC82A135AD800B3889B /* swiftui_change_language.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = swiftui_change_language.entitlements; sourceTree = "<group>"; };
+		32AE1FCA2A135AD800B3889B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32AE1FD02A135AD800B3889B /* swiftui-change-languageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-change-languageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AE1FD42A135AD800B3889B /* swiftui_change_languageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_change_languageTests.swift; sourceTree = "<group>"; };
+		32AE1FDA2A135AD800B3889B /* swiftui-change-languageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swiftui-change-languageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AE1FDE2A135AD800B3889B /* swiftui_change_languageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_change_languageUITests.swift; sourceTree = "<group>"; };
+		32AE1FE02A135AD800B3889B /* swiftui_change_languageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_change_languageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		32AE1FEF2A135BE000B3889B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		32AE1FF12A135BE500B3889B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		32AE1FF82A135E4100B3889B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		32AE1FFA2A135E4400B3889B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		32AE1FFB2A135E9D00B3889B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		32AE1FFD2A135F1900B3889B /* ChangeLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguageView.swift; sourceTree = "<group>"; };
+		32AE1FFF2A13627000B3889B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32AE1FBC2A135AD700B3889B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AE1FCD2A135AD800B3889B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AE1FD72A135AD800B3889B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32AE1FB62A135AD700B3889B = {
+			isa = PBXGroup;
+			children = (
+				32AE1FC12A135AD700B3889B /* swiftui-change-language */,
+				32AE1FD32A135AD800B3889B /* swiftui-change-languageTests */,
+				32AE1FDD2A135AD800B3889B /* swiftui-change-languageUITests */,
+				32AE1FC02A135AD700B3889B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32AE1FC02A135AD700B3889B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AE1FBF2A135AD700B3889B /* swiftui-change-language.app */,
+				32AE1FD02A135AD800B3889B /* swiftui-change-languageTests.xctest */,
+				32AE1FDA2A135AD800B3889B /* swiftui-change-languageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32AE1FC12A135AD700B3889B /* swiftui-change-language */ = {
+			isa = PBXGroup;
+			children = (
+				32AE1FC22A135AD700B3889B /* swiftui_change_languageApp.swift */,
+				32AE1FFB2A135E9D00B3889B /* AppState.swift */,
+				32AE1FEF2A135BE000B3889B /* HomeView.swift */,
+				32AE1FF12A135BE500B3889B /* SettingsView.swift */,
+				32AE1FFD2A135F1900B3889B /* ChangeLanguageView.swift */,
+				32AE1FFF2A13627000B3889B /* Extensions.swift */,
+				32AE1FF92A135E4100B3889B /* Localizable.strings */,
+				32AE1FC62A135AD800B3889B /* Assets.xcassets */,
+				32AE1FC82A135AD800B3889B /* swiftui_change_language.entitlements */,
+				32AE1FC92A135AD800B3889B /* Preview Content */,
+			);
+			path = "swiftui-change-language";
+			sourceTree = "<group>";
+		};
+		32AE1FC92A135AD800B3889B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32AE1FCA2A135AD800B3889B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32AE1FD32A135AD800B3889B /* swiftui-change-languageTests */ = {
+			isa = PBXGroup;
+			children = (
+				32AE1FD42A135AD800B3889B /* swiftui_change_languageTests.swift */,
+			);
+			path = "swiftui-change-languageTests";
+			sourceTree = "<group>";
+		};
+		32AE1FDD2A135AD800B3889B /* swiftui-change-languageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32AE1FDE2A135AD800B3889B /* swiftui_change_languageUITests.swift */,
+				32AE1FE02A135AD800B3889B /* swiftui_change_languageUITestsLaunchTests.swift */,
+			);
+			path = "swiftui-change-languageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32AE1FBE2A135AD700B3889B /* swiftui-change-language */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AE1FE42A135AD800B3889B /* Build configuration list for PBXNativeTarget "swiftui-change-language" */;
+			buildPhases = (
+				32AE1FBB2A135AD700B3889B /* Sources */,
+				32AE1FBC2A135AD700B3889B /* Frameworks */,
+				32AE1FBD2A135AD700B3889B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-change-language";
+			productName = "swiftui-change-language";
+			productReference = 32AE1FBF2A135AD700B3889B /* swiftui-change-language.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32AE1FCF2A135AD800B3889B /* swiftui-change-languageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AE1FE72A135AD800B3889B /* Build configuration list for PBXNativeTarget "swiftui-change-languageTests" */;
+			buildPhases = (
+				32AE1FCC2A135AD800B3889B /* Sources */,
+				32AE1FCD2A135AD800B3889B /* Frameworks */,
+				32AE1FCE2A135AD800B3889B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AE1FD22A135AD800B3889B /* PBXTargetDependency */,
+			);
+			name = "swiftui-change-languageTests";
+			productName = "swiftui-change-languageTests";
+			productReference = 32AE1FD02A135AD800B3889B /* swiftui-change-languageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32AE1FD92A135AD800B3889B /* swiftui-change-languageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AE1FEA2A135AD800B3889B /* Build configuration list for PBXNativeTarget "swiftui-change-languageUITests" */;
+			buildPhases = (
+				32AE1FD62A135AD800B3889B /* Sources */,
+				32AE1FD72A135AD800B3889B /* Frameworks */,
+				32AE1FD82A135AD800B3889B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AE1FDC2A135AD800B3889B /* PBXTargetDependency */,
+			);
+			name = "swiftui-change-languageUITests";
+			productName = "swiftui-change-languageUITests";
+			productReference = 32AE1FDA2A135AD800B3889B /* swiftui-change-languageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32AE1FB72A135AD700B3889B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					32AE1FBE2A135AD700B3889B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					32AE1FCF2A135AD800B3889B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 32AE1FBE2A135AD700B3889B;
+					};
+					32AE1FD92A135AD800B3889B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 32AE1FBE2A135AD700B3889B;
+					};
+				};
+			};
+			buildConfigurationList = 32AE1FBA2A135AD700B3889B /* Build configuration list for PBXProject "swiftui-change-language" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 32AE1FB62A135AD700B3889B;
+			productRefGroup = 32AE1FC02A135AD700B3889B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32AE1FBE2A135AD700B3889B /* swiftui-change-language */,
+				32AE1FCF2A135AD800B3889B /* swiftui-change-languageTests */,
+				32AE1FD92A135AD800B3889B /* swiftui-change-languageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AE1FBD2A135AD700B3889B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AE1FCB2A135AD800B3889B /* Preview Assets.xcassets in Resources */,
+				32AE1FF72A135E4100B3889B /* Localizable.strings in Resources */,
+				32AE1FC72A135AD800B3889B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AE1FCE2A135AD800B3889B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AE1FD82A135AD800B3889B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AE1FBB2A135AD700B3889B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AE1FFE2A135F1900B3889B /* ChangeLanguageView.swift in Sources */,
+				32AE20002A13627000B3889B /* Extensions.swift in Sources */,
+				32AE1FF22A135BE500B3889B /* SettingsView.swift in Sources */,
+				32AE1FC32A135AD700B3889B /* swiftui_change_languageApp.swift in Sources */,
+				32AE1FF02A135BE000B3889B /* HomeView.swift in Sources */,
+				32AE1FFC2A135E9D00B3889B /* AppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AE1FCC2A135AD800B3889B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AE1FD52A135AD800B3889B /* swiftui_change_languageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AE1FD62A135AD800B3889B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AE1FE12A135AD800B3889B /* swiftui_change_languageUITestsLaunchTests.swift in Sources */,
+				32AE1FDF2A135AD800B3889B /* swiftui_change_languageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32AE1FD22A135AD800B3889B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AE1FBE2A135AD700B3889B /* swiftui-change-language */;
+			targetProxy = 32AE1FD12A135AD800B3889B /* PBXContainerItemProxy */;
+		};
+		32AE1FDC2A135AD800B3889B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AE1FBE2A135AD700B3889B /* swiftui-change-language */;
+			targetProxy = 32AE1FDB2A135AD800B3889B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32AE1FF92A135E4100B3889B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AE1FF82A135E4100B3889B /* en */,
+				32AE1FFA2A135E4400B3889B /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32AE1FE22A135AD800B3889B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32AE1FE32A135AD800B3889B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		32AE1FE52A135AD800B3889B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-change-language/swiftui_change_language.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-change-language/Preview Content\"";
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.woter.swiftui-change-language";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32AE1FE62A135AD800B3889B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "swiftui-change-language/swiftui_change_language.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-change-language/Preview Content\"";
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.woter.swiftui-change-language";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		32AE1FE82A135AD800B3889B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.woter.swiftui-change-languageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-change-language.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftui-change-language";
+			};
+			name = Debug;
+		};
+		32AE1FE92A135AD800B3889B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.woter.swiftui-change-languageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiftui-change-language.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiftui-change-language";
+			};
+			name = Release;
+		};
+		32AE1FEB2A135AD800B3889B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.woter.swiftui-change-languageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-change-language";
+			};
+			name = Debug;
+		};
+		32AE1FEC2A135AD800B3889B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JHT4FL54H9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.woter.swiftui-change-languageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swiftui-change-language";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AE1FBA2A135AD700B3889B /* Build configuration list for PBXProject "swiftui-change-language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AE1FE22A135AD800B3889B /* Debug */,
+				32AE1FE32A135AD800B3889B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AE1FE42A135AD800B3889B /* Build configuration list for PBXNativeTarget "swiftui-change-language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AE1FE52A135AD800B3889B /* Debug */,
+				32AE1FE62A135AD800B3889B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AE1FE72A135AD800B3889B /* Build configuration list for PBXNativeTarget "swiftui-change-languageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AE1FE82A135AD800B3889B /* Debug */,
+				32AE1FE92A135AD800B3889B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AE1FEA2A135AD800B3889B /* Build configuration list for PBXNativeTarget "swiftui-change-languageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AE1FEB2A135AD800B3889B /* Debug */,
+				32AE1FEC2A135AD800B3889B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32AE1FB72A135AD700B3889B /* Project object */;
+}

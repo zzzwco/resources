@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  swiftui-change-language
+
+  Created by Bruce on 2023/5/16.
+  
+*/
+
+"Home" = "首页";
+"Settings" = "设置";
+"Language" = "语言";
