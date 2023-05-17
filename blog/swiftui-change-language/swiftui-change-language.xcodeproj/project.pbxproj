@@ -19,6 +19,8 @@
 		32AE1FFC2A135E9D00B3889B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FFB2A135E9D00B3889B /* AppState.swift */; };
 		32AE1FFE2A135F1900B3889B /* ChangeLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FFD2A135F1900B3889B /* ChangeLanguageView.swift */; };
 		32AE20002A13627000B3889B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AE1FFF2A13627000B3889B /* Extensions.swift */; };
+		32AE20192A14DD7900B3889B /* lproj.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AE20182A14DD7900B3889B /* lproj.png */; };
+		32AE201B2A14DE7E00B3889B /* example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 32AE201A2A14DE7E00B3889B /* example.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		32AE1FFB2A135E9D00B3889B /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		32AE1FFD2A135F1900B3889B /* ChangeLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeLanguageView.swift; sourceTree = "<group>"; };
 		32AE1FFF2A13627000B3889B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		32AE20182A14DD7900B3889B /* lproj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lproj.png; sourceTree = "<group>"; };
+		32AE201A2A14DE7E00B3889B /* example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		32AE1FC12A135AD700B3889B /* swiftui-change-language */ = {
 			isa = PBXGroup;
 			children = (
+				32AE20172A14DD0B00B3889B /* images */,
 				32AE1FC22A135AD700B3889B /* swiftui_change_languageApp.swift */,
 				32AE1FFB2A135E9D00B3889B /* AppState.swift */,
 				32AE1FEF2A135BE000B3889B /* HomeView.swift */,
@@ -143,6 +148,15 @@
 				32AE1FE02A135AD800B3889B /* swiftui_change_languageUITestsLaunchTests.swift */,
 			);
 			path = "swiftui-change-languageUITests";
+			sourceTree = "<group>";
+		};
+		32AE20172A14DD0B00B3889B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				32AE201A2A14DE7E00B3889B /* example.gif */,
+				32AE20182A14DD7900B3889B /* lproj.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +267,8 @@
 				32AE1FCB2A135AD800B3889B /* Preview Assets.xcassets in Resources */,
 				32AE1FF72A135E4100B3889B /* Localizable.strings in Resources */,
 				32AE1FC72A135AD800B3889B /* Assets.xcassets in Resources */,
+				32AE201B2A14DE7E00B3889B /* example.gif in Resources */,
+				32AE20192A14DD7900B3889B /* lproj.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
