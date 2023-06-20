@@ -49,4 +49,8 @@ try await withThrowingDiscardingTaskGroup() { group in
 }
 */
 
+// MARK: - Macros
+
+// See WWDC23Macros
+
 // MARK: - Ownership

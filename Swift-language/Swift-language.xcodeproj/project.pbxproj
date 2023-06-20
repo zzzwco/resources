@@ -55,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		32528AC22A414EC3000A9A02 /* WWDC23 */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = WWDC23; sourceTree = "<group>"; };
 		32EA81242A31EC2A000C5643 /* Swift5.9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift5.9; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EA81262A31EC2B000C5643 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6925658C29D72529002A2C28 /* Swift5.8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift5.8; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,6 +102,7 @@
 		32EA81252A31EC2B000C5643 /* Swift5.9 */ = {
 			isa = PBXGroup;
 			children = (
+				32528AC22A414EC3000A9A02 /* WWDC23 */,
 				32EA81262A31EC2B000C5643 /* main.swift */,
 			);
 			path = Swift5.9;
